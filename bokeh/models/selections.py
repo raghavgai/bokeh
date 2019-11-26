@@ -67,7 +67,7 @@ class Selection(Model):
     multiline_indices = Dict(String, Seq(Int), default={}, help="""
     The detailed point indices included in a selection on a ``MultiLine``.
 
-    This value records which points, on which lines, are part of a seletion on
+    This value records which points, on which lines, are part of a selection on
     a ``MulitLine``. The keys are the top level indices (i.e., which line)
     which map to lists of indices (i.e. which points on that line).
 

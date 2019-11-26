@@ -87,7 +87,7 @@ def OutputDocumentFor(objs, apply_theme=None, always_new=False):
       temporarily "re-homes" the models in a new bare Document that is only available
       inside the context manager.
 
-    OutputDocumentFor will also perfom document validation before yielding, if
+    OutputDocumentFor will also perform document validation before yielding, if
     ``settings.perform_document_validation()`` is True.
 
 

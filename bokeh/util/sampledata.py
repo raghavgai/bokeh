@@ -18,7 +18,7 @@ log = logging.getLogger(__name__)
 # Imports
 #-----------------------------------------------------------------------------
 
-# NOTE: since downloading sampledata is not a common occurrnce, non-stdlib
+# NOTE: since downloading sampledata is not a common occurrence, non-stdlib
 # imports are generally deferrered in this module
 
 # Standard library imports
